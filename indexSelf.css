@@ -1,0 +1,126 @@
+@media screen and (max-width: 996px) {
+
+    .MotherBoard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
+    img {
+        width:100vw;
+    }
+
+
+    .Info {
+        display:flex;
+        flex-wrap: column wrap;
+
+    }
+
+    .SecondBox .SixthBox .FourthBox .FivthBox .SixthBox {
+        
+    }
+}
+
+
+body {
+    height: 100%;
+    width:100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: row wrap;
+
+}
+
+
+
+.MotherBoard { 
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-grow: row;
+    justify-content: center;
+    margin-top: 50px;
+
+
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    width:30%;
+}
+
+.Name {
+    font-size: 75px;
+    font-weight: 300;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.SecondBox {
+    font-size: 20px;
+    color:rgb(190, 167, 15);
+    font-weight: 300;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin:10px;
+}
+
+.ThirdBox {
+    
+    font-size: 20px;
+    color:black;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin:10px;
+}
+
+.FourthBox {
+    font-size: 20px;
+    color:black;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin:10px;
+}
+
+.FivthBox {
+    font-style: italic;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.826);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin:10px;
+}
+
+.SixthBox {
+    font-size: 20px;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    margin:10px;
+}
+
+
+.box {
+    border: solid black 5px;
+    margin:50px;
+    border-style:double;
+    text-align: center;
+}
+
+.box:hover {
+    color:white;
+    background-color: rgb(38, 37, 34); 
+    transition: 0.3s;
+}
+
+a{
+    color: black;
+}
+
+.IntroductionToJohn {
+    background-color: burlywood;
+}
